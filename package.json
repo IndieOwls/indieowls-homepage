@@ -1,12 +1,9 @@
 {
-  "name": "indieowls-site",
+  "name": "indieowls-homepage",
   "version": "1.0.0",
   "private": true,
-  "description": "indieowls-site",
-  "author": "Denny S. Temple",
-  "keywords": [
-    "gatsby"
-  ],
+  "description": "",
+  "author": "Denny S. Temple <admin@indieowls.com> (https://indieowls.com/)",
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
@@ -20,12 +17,16 @@
     "gatsby": "^5.7.0",
     "gatsby-plugin-image": "^3.7.0",
     "gatsby-plugin-mdx": "^5.7.0",
+    "gatsby-plugin-react-helmet": "^6.7.0",
     "gatsby-plugin-sharp": "^5.7.0",
     "gatsby-plugin-styled-components": "^6.7.0",
     "gatsby-source-filesystem": "^5.7.0",
     "gatsby-transformer-sharp": "^5.7.0",
+    "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "styled-components": "^5.3.8"
+    "react-helmet": "^6.1.0",
+    "styled-components": "^5.3.8",
+    "webfontloader": "^1.6.28"
   }
 }
